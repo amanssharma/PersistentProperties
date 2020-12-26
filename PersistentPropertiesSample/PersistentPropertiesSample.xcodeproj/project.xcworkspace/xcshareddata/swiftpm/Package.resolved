@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PersistentProperties",
+        "repositoryURL": "https://github.com/amanssharma/PersistentProperties",
+        "state": {
+          "branch": null,
+          "revision": "1bf1d41eb2376ea8da02e2d117cafceadf20a739",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

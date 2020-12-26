@@ -7,7 +7,9 @@ A property wrapper that allow objects that conform to Codable protocol to be sto
 
 ## Installation
 
-Add package using the [repository URL](https://github.com/amanssharma/PersistentProperties).
+1. From Xcode menu, open File → Swift Packages → Add Package Dependency.
+2. Paste the repository url https://github.com/amanssharma/PersistentProperties and hit Next.
+3. Take your pick from choosing the latest version, or a specific commit or branch, as you please, and hit Next, and then on the next prompt hit Finish.
 
 ## Usage
 

@@ -13,6 +13,7 @@ A property wrapper that allow objects that conform to Codable protocol to be sto
 
 ## Usage
 
+Add an `import PersistentProperties` statement to the file where you want to declare a persistent property.
 Append the declaration of any property with the attribute @PersistentProperty.
 Specify the user defaults key and any default value (for optional properties).
 By default the standard user defaults are used, however, this may be overriden in the property wrapper initialiser to specify a different UserDefaults suite.
@@ -30,3 +31,5 @@ The attribute can be applied to any type that conforms to Codable.
 ### 3. The below variable will be stored in standard user defaults with the key "some-key".
 let customDefaultsSuite = UserDefaults.init(suiteName: "customDefaultsSuite")!
 @PersistentProperty(key: "custom-suite-key", defaultValue: "", defaults: customDefaultsSuite) var standardStringVar: String
+
+You may refer to the sample app to see everything in action.
